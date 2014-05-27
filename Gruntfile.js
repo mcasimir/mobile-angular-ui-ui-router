@@ -9,17 +9,19 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         files: {
-          "dist/mobile-angular-ui.ui-router.js": ["src/js/mobile-angular-ui.ui-router.js"]
+          "dist/mobile-angular-ui.ui-router.js": ["src/mobile-angular-ui.ui-router.js"]
         }
       }
     },
 
     uglify: {
-      options: {
-        report: 'min'
-      },
-      files: {
-        "dist/mobile-angular-ui.ui-router.min.js": ["dist/js/mobile-angular-ui.ui-router.js"]
+      dist: {
+        options: {
+          report: 'min'
+        },
+        files: {
+          "dist/mobile-angular-ui.ui-router.min.js": ["dist/mobile-angular-ui.ui-router.js"]
+        }        
       }
     },
 

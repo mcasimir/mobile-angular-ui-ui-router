@@ -1,0 +1,27 @@
+{
+  "name": "mobile-angular-ui-ui-router",
+  "version": "0.0.0",
+  "authors": [
+    "mcasimir <maurizio.cas@gmail.com>"
+  ],
+  "description": "Ui.Router support module for Mobile Angular UI",
+  "main": "dist/mobile-angular-ui.ui-router.js",
+  "keywords": [
+    "Mobile",
+    "Angular",
+    "UI",
+    "Ui",
+    "Router"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.10"
+  }
+}
